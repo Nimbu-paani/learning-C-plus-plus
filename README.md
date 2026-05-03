@@ -10,7 +10,7 @@ I created this repo to:
 * Improve problem-solving skills
 * Track my learning journey
 
-## 🛠️ Topics Covered
+## 🛠️ Topics Will Be Covered
 
 * Basic syntax
 * Input/Output (`cin`, `cout`)
