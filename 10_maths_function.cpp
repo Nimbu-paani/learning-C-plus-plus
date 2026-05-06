@@ -2,7 +2,7 @@
 
 int main()
 {
-    double x = 3;
+    double x = 5;
     double y = 4;
     double z;
     double max;
