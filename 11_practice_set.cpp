@@ -19,6 +19,5 @@ int main()
 
     cout << "Side C:" << c << '\n';
 
-
     return 0;
 }
