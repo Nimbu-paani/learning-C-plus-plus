@@ -5,9 +5,9 @@ int main()
 {
 
     char opreation;
-    float a,b;
+    double a,b;
 
-    cout << "Addition(+)" << '\n' << "Subtraction(-)" << '\n' << "Multiplication(*)" << '\n' << "Division(/)" << '\n';
+    cout << "Addition(+)\nSubtraction(-)\nMultiplication(*)\nDivision(/)\n";
     cout << "Enter a Symbol:";
     cin >> opreation;
     cout << "Enter First Number:";
