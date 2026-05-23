@@ -14,6 +14,7 @@ int main()
     cin >> a;
     cout << "Enter Second Number:";
     cin >> b;
+    cout << '\n';
 
     switch (opreation)
     {
