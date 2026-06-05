@@ -24,19 +24,6 @@ I created this repo to:
 * Inheritance & Polymorphism
 * STL (Standard Template Library)
 
-## 📂 Folder Structure
-
-Each file or folder represents a specific topic or program.
-
-Example:
-
-```
-/basics
-/oop
-/stl
-/algorithms
-```
-
 ## ▶️ How to Run
 
 Make sure you have a C++ compiler like `g++` installed.
