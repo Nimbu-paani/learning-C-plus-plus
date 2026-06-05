@@ -14,7 +14,7 @@ int main()
     cout << "enter rate: ";
     cin >> r;
 
-    si = p * t * r / 100;
+    si = (p * t * r) / 100;
 
     cout << "simple intrest: " << si << endl;
 
