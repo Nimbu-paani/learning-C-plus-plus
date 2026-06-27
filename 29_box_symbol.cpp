@@ -13,9 +13,9 @@ int main()
 
     cout << "Which symbol you want:";
     cin >> sym;
-    for (int i = 0; i < rows; i++)
+    for (int i = 0; i < columns; i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int j = 0; j < rows; j++)
         {
             cout << sym;
         }
