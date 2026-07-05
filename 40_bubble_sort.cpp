@@ -5,17 +5,10 @@ void sort(int arr[], int size);
 
 int main()
 {
-    int arr[20];
     int size;
-
     cout << "How many elements you have: ";
     cin >> size;
-
-    if (size > 20)
-    {
-        cout << "Only 20 Numbers are supported currently\n";
-        return 0;
-    }
+    int arr[size];
 
     cout << "Enter the Numbers: ";
 
