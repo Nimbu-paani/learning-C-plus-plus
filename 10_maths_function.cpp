@@ -4,7 +4,6 @@ int main()
 {
     double x = 5;
     double y = 4;
-    double z;
     double max;
     double min;
 
