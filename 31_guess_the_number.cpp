@@ -1,5 +1,14 @@
 #include <iostream>
 #include <ctime>
+
+#define RED     "\033[31m"
+#define GREEN   "\033[32m"
+#define YELLOW  "\033[33m"
+#define BLUE    "\033[34m"
+#define MAGENTA "\033[35m"
+#define CYAN    "\033[36m"
+#define RESET   "\033[0m"
+
 using namespace std;
 
 int main()
@@ -7,9 +16,9 @@ int main()
     int num, guess, tries=0;
     int max;
 
-    cout << "***GUESS THE NUMBER***\n";
+    cout << BLUE << "***GUESS THE NUMBER***" << RESET << endl;
 
-    cout << "Enter the maximum number: ";
+    cout << MAGENTA << "Enter the maximum number: " << RESET;
     cin >> max;
 
     srand(time(0));
@@ -17,22 +26,22 @@ int main()
 
     do
     {
-        cout << "Enter a number(1-"<<max<<"): ";
+        cout << BLUE << "Enter a number(1-"<<max<<"): "<< RESET;
         cin >> guess;
         tries++;
 
         if (guess > num)
         {
-            cout << "Go Lower\n";
+            cout << YELLOW << "Go Lower" << RESET << endl;
         }
         else if (guess < num)
         {
-            cout << "Go Higher\n";
+            cout << YELLOW << "Go Higher" << RESET << endl;
         }
         else
         {
-            cout << "Correct the number was " << num << '\n';
-            cout << "Number of tries: " << tries << '\n';
+            cout << GREEN << "Correct the number was " << RESET << num << '\n';
+            cout << GREEN << "Number of tries: " << RESET << tries << '\n';
         }
 
     } while (guess != num);
