@@ -2,12 +2,13 @@
 
 class Faculty
 {
-    private:
+private:
     int Fcode;
-    public:
+
+public:
     Faculty()
     {
-        Fcode=205;
+        Fcode = 205;
         std::cout << "Faculty code: " << Fcode << '\n';
     }
 };
