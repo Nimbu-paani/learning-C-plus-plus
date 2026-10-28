@@ -7,11 +7,11 @@ int main()
     file.open("Data.txt");
     std::string line;
 
-    while (getline(file , line))
+    while (getline(file, line))
     {
-        std::cout<<line<<std::endl;
+        std::cout << line << std::endl;
     }
     file.close();
-    
+
     return 0;
 }
